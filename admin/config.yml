@@ -1,8 +1,8 @@
 backend:
   name: git-gateway
   accept_roles: #optional - accepts all users if left out
-   - admin
-   - editor
+    - admin
+    - editor
   repo: github
   branch: main # Branch to update (optional; defaults to master)
   api_root: https://api.github.com
