@@ -29,8 +29,8 @@ jobs:
   # Build job
   - name: Build TinaCMS
   env:
-    CLIENT_ID: df8f0f35-dc4b-426b-ae0d-9241538e77c5
-    TINA_TOKEN: 3c507850d27e957657f3f317999385f6570b15a4
+    CLIENT_ID: "df8f0f35-dc4b-426b-ae0d-9241538e77c5"
+    TINA_TOKEN: "3c507850d27e957657f3f317999385f6570b15a4"
   run: ${{ steps.detect-package-manager.outputs.runner }} tinacms build
   build:
     runs-on: ubuntu-latest
