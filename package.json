@@ -13,8 +13,14 @@
     "stylelint-prettier": "^2.0.0"
   },
   "scripts": {
+    "dev": "tinacms dev -c \"bundle exec jekyll serve\"",
+    "build": "tinacms build && jekyll build",
     "test": "stylelint '**/*.scss'",
     "format": "prettier --write '**/*.{scss,js,json}'",
     "stylelint-check": "stylelint-config-prettier-check"
+  },
+  "dependencies": {
+    "@tinacms/cli": "^1.2.2",
+    "tinacms": "^1.2.2"
   }
 }
