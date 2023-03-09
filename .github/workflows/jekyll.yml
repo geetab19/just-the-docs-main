@@ -26,11 +26,6 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-- name: Build TinaCMS
-  env:
-    CLIENT_ID: 439465f1-69b6-46e9-88ca-4a8cf2708ae2
-    TINA_TOKEN: 240b1c40912374fe6e3314c6a0ce52aa90ec21be
-  run: ${{ steps.detect-package-manager.outputs.runner }} tinacms build
   # Build job
   build:
     runs-on: ubuntu-latest
