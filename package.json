@@ -13,7 +13,8 @@
     "stylelint-prettier": "^2.0.0"
   },
   "scripts": {
-    "dev": "npx tinacms dev -c \"jekyll serve\"",
+    "dev": "tinacms dev -c \"bundle exec jekyll serve\"",
+    "build": "tinacms build && jekyll build",
     "start": "tinacms build && next start",
     "test": "stylelint '**/*.scss'",
     "format": "prettier --write '**/*.{scss,js,json}'",

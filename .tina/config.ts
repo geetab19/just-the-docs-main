@@ -8,13 +8,14 @@ export default defineConfig({
   clientId: "439465f1-69b6-46e9-88ca-4a8cf2708ae2", // Get this from tina.io
   token: "240b1c40912374fe6e3314c6a0ce52aa90ec21be", // Get this from tina.io
   build: {
+    
     outputFolder: "admin",
     publicFolder: "./",
   },
   media: {
     tina: {
-      mediaRoot: "",
-      publicFolder: "./",
+      mediaRoot: "uploads",
+      publicFolder: "assets",
     },
   },
   schema: {
@@ -26,17 +27,34 @@ export default defineConfig({
         fields: [
           {
             type: "string",
+            name: "layout",
+            label: "Layout",
+            required: true,
+          },
+          {
+            type: "string",
             name: "title",
             label: "Title",
             isTitle: true,
             required: true,
+          },
+          { 
+            type: "datetime",
+            name: "date",
+            label: "Date",
+            required: true,
+          },
+          { 
+            type: "string",
+            name: "categories",
+            label: "Categories",
           },
           {
             type: "rich-text",
             name: "body",
             label: "Body",
             isBody: true,
-          },
+          }
         ],
       },
     ],
