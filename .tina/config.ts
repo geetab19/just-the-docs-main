@@ -5,17 +5,16 @@ const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
 
 export default defineConfig({
   branch,
-  clientId: "c705a7fe-8e9e-4f96-a275-c275d002c178", // Get this from tina.io
-  token: "98193fb19321d51f1a1e8af60866b570fbd58f5d", // Get this from tina.io
+  clientId: "df8f0f35-dc4b-426b-ae0d-9241538e77c5", // Get this from tina.io
+  token: "3c507850d27e957657f3f317999385f6570b15a4", // Get this from tina.io
   build: {
-    
     outputFolder: "admin",
     publicFolder: "./",
   },
   media: {
     tina: {
-      mediaRoot: "uploads",
-      publicFolder: "assets",
+      mediaRoot: "",
+      publicFolder: "./",
     },
   },
   schema: {
@@ -27,34 +26,17 @@ export default defineConfig({
         fields: [
           {
             type: "string",
-            name: "layout",
-            label: "Layout",
-            required: true,
-          },
-          {
-            type: "string",
             name: "title",
             label: "Title",
             isTitle: true,
             required: true,
-          },
-          { 
-            type: "datetime",
-            name: "date",
-            label: "Date",
-            required: true,
-          },
-          { 
-            type: "string",
-            name: "categories",
-            label: "Categories",
           },
           {
             type: "rich-text",
             name: "body",
             label: "Body",
             isBody: true,
-          }
+          },
         ],
       },
     ],
