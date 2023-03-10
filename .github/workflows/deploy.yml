@@ -42,8 +42,8 @@ jobs:
         uses: actions/configure-pages@v2
       - name: Build TinaCMS
         env:
-          CLIENT_ID: "df8f0f35-dc4b-426b-ae0d-9241538e77c5"
-          TINA_TOKEN: "3c507850d27e957657f3f317999385f6570b15a4"
+          CLIENT_ID: c705a7fe-8e9e-4f96-a275-c275d002c178
+          TINA_TOKEN: 98193fb19321d51f1a1e8af60866b570fbd58f5d
           run: ${{ steps.detect-package-manager.outputs.runner }} tinacms build
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
@@ -61,7 +61,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
-    steps:       
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1

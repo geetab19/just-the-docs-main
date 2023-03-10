@@ -15,7 +15,7 @@
   "scripts": {
     "dev": "tinacms dev -c \"bundle exec jekyll serve\"",
     "build": "tinacms build && jekyll build",
-    "test": "stylelint '**/*.scss'",
+    "start": "tinacms build && next start",
     "format": "prettier --write '**/*.{scss,js,json}'",
     "stylelint-check": "stylelint-config-prettier-check"
   },
