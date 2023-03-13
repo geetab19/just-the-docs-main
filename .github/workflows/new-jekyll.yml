@@ -41,12 +41,6 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
-      - name: Setup gems
-        id: setup-gems
-        run: sudo gem install bundler && sudo bundle install
-      - name: Install gems
-        id: install-npm
-        run: npm install
       - name: Build TinaCMS
         env:
           CLIENT_ID: f2850801-2e0a-4745-9e54-31fafdceb527
