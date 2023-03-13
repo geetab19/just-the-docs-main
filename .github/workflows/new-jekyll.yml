@@ -41,12 +41,16 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
+      - name: Setup gems
+        id: setup-gems
+        run: sudo gem install bundler && sudo bundle install
+      - name: Install gems
+        id: install-npm
+        run: npm install
       - name: Build TinaCMS
         env:
           CLIENT_ID: f2850801-2e0a-4745-9e54-31fafdceb527
-          TINA_TOKEN: 9bc2adf61aa3e6861f18373750579e023a89c8f8
-        run: sudo gem install bundler && sudo bundle install
-        run: npm install        
+          TINA_TOKEN: 9bc2adf61aa3e6861f18373750579e023a89c8f8         
         run: ${{ steps.detect-package-manager.outputs.runner }} tinacms build
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
