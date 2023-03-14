@@ -41,9 +41,6 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
-      - name: Install TinaCli
-        id: tina-id
-        run: npx @tinacms/cli init
       - name: Build TinaCMS
         env:
           CLIENT_ID: f10eb64b-454a-4638-a89c-1da009c98969
