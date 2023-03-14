@@ -42,8 +42,8 @@ jobs:
         uses: actions/configure-pages@v2
       - name: Build TinaCMS
         env:
-          CLIENT_ID: f2850801-2e0a-4745-9e54-31fafdceb527
-          TINA_TOKEN: 9bc2adf61aa3e6861f18373750579e023a89c8f8
+          CLIENT_ID: f10eb64b-454a-4638-a89c-1da009c98969
+          TINA_TOKEN: 9e911257ec52a5050d077a81f0af300b2fae001b
           run: ${{ steps.detect-package-manager.outputs.runner }} tinacms build
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
