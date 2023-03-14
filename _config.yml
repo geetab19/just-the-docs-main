@@ -177,3 +177,5 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
+
+  github: [metadata]
