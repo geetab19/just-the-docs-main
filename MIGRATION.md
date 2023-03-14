@@ -30,7 +30,7 @@ This document contains instructions on how to migrate and upgrade Just the Docs 
 
 {: .warning }
 > If your configuration states `remote_theme: just-the-docs/just-the-docs`, your
-> website is built using the current `main` branch of the theme, which may include
+> website is built using the current `master` branch of the theme, which may include
 > changes made after the latest release; see the [CHANGELOG].
 >
 > If your configuration states `theme: just the docs` and your `Gemfile` specifies
