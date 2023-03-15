@@ -43,12 +43,12 @@ jobs:
         id: pages
         uses: actions/configure-pages@v3
       - name: Install dependencies TinaCMS
-        run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
+        run: npm i
       - name: Build TinaCMS
         env:
           CLIENT_ID: 1779454f-0fea-4f90-9578-6e5b6751dea4
           TINA_TOKEN: 1989eb6eb0d8f487396092872d2a30fe59ff8479
-        run: ${{ steps.detect-package-manager.outputs.runner }} tinacms build
+        run: npm run build
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
