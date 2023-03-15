@@ -46,7 +46,7 @@ jobs:
         env:
           CLIENT_ID: 1779454f-0fea-4f90-9578-6e5b6751dea4
           TINA_TOKEN: 1989eb6eb0d8f487396092872d2a30fe59ff8479
-        run: npx tinacms build
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
