@@ -43,7 +43,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v3
       - name: Install dependencies TinaCMS
-        run: npm i
+        run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build TinaCMS
         env:
           CLIENT_ID: 1779454f-0fea-4f90-9578-6e5b6751dea4
