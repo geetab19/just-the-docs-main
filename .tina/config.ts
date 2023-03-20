@@ -9,7 +9,7 @@ export default defineConfig({
   clientId: "1779454f-0fea-4f90-9578-6e5b6751dea4", // Get this from tina.io
   token: "1989eb6eb0d8f487396092872d2a30fe59ff8479", // Get this from tina.io
   build: {
-    outputFolder: "just-the-docs-main/admin",
+    outputFolder: "admin",
     publicFolder: "just-the-docs-main/admin",
   },
   media: {
