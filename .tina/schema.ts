@@ -19,8 +19,8 @@ export default defineSchema({
               {
                 type: "reference",
                 label: "Author",
-                name: "author",
-                collection: "authors",
+                name: "author"
+               
               },
             ],
           },
