@@ -42,6 +42,8 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
+      - name: Install dependencies TinaCMS
+        run: npm i
       - name: Build TinaCMS
         env:
           CLIENT_ID: 611c6f3d-4132-4636-ab81-24482bc7713a
