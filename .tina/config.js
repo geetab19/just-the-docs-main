@@ -8,8 +8,8 @@ export default defineConfig({
   clientId: "611c6f3d-4132-4636-ab81-24482bc7713a", // Get this from tina.io
   token: "bcdb3b7397a9321b26d979c111a55cd57f10fabd", // Get this from tina.io
   build: {
-    outputFolder: "admin",
-    publicFolder: "/",
+    outputFolder: "just-the-docs-main/admin",
+    publicFolder: "public",
   },
   media: {
     tina: {
@@ -22,7 +22,7 @@ export default defineConfig({
       {
         name: "post",
         label: "Posts",
-        path: "content/posts",
+        path: "_posts",
         fields: [
           {
             type: "string",
