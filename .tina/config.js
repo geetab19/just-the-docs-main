@@ -23,6 +23,7 @@ export default defineConfig({
         name: "post",
         label: "Posts",
         path: "_posts",
+        format: 'md',
         ui: {
           filename: {
             readonly: false,
@@ -30,10 +31,8 @@ export default defineConfig({
               const date = new Date();
               const day = date.getDate();
               const month = date.getMonth() + 1;
-              const year = date.getFullYear();
-        
-              let currentDate = `${year}-${month}-${day}`;
-        
+              const year = date.getFullYear();        
+              let currentDate = `${year}-${month}-${day}`;        
               return `${currentDate}-${values?.title?.toLowerCase().replace(/ /g, '-')}`
             }
           }
