@@ -37,14 +37,7 @@ export default defineConfig({
             }
           }
         },
-        fields: [
-          {
-            name: 'draft',
-            label: 'Draft',
-            type: 'boolean',
-            required: true,
-            description: 'If this is checked the post will not be published',
-          },
+        fields: [        
           {
             type: "string",
             name: "layout",
@@ -74,6 +67,13 @@ export default defineConfig({
             name: "body",
             label: "Body",
             isBody: true,
+          },
+          {
+            name: 'draft',
+            label: 'Draft',
+            type: 'boolean',
+            required: true,
+            description: 'If this is checked the post will not be published',
           },
         ],
       },
