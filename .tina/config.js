@@ -13,8 +13,8 @@ export default defineConfig({
   },
   media: {
     tina: {
-      mediaRoot: "uploads",
-      publicFolder: "assets",
+      mediaRoot: "just-the-docs-main/uploads",
+      publicFolder: "just-the-docs-main/assets",
     },
   },
   schema: {
