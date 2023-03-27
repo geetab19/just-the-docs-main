@@ -42,7 +42,7 @@ export default defineConfig({
             type: "string",
             name: "layout",
             label: "Layout",
-            required: true,
+            required: false,
           },
           {
             type: "string",
