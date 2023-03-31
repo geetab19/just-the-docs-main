@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Lists
+layout: default
 parent: UI Components
 nav_order: 5
 ---

@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Labels
+layout: default
 parent: UI Components
 nav_order: 3
 ---

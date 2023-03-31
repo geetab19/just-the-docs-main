@@ -1,7 +1,7 @@
 ---
-layout: Blog
 title: Time Management Tips
-date: '2023-03-30T19:00:00.000Z'
+date: 2023-03-30 19:00:00 Z
+layout: Blog
 categories: Time Management
 draft: false
 ---

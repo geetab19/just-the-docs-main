@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Typography
+layout: default
 parent: UI Components
 nav_order: 1
 ---

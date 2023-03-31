@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Buttons
+layout: default
 parent: UI Components
 nav_order: 2
 ---

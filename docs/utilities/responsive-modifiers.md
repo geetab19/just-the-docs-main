@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Responsive Modifiers
+layout: default
 parent: Utilities
 ---
 

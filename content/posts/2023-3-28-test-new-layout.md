@@ -1,7 +1,7 @@
 ---
-layout: newlayout
 title: test new Layout
-date: '2023-03-27T18:30:00.000Z'
+date: 2023-03-27 18:30:00 Z
+layout: newlayout
 categories: test Cat
 draft: false
 ---

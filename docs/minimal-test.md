@@ -1,6 +1,6 @@
 ---
-layout: minimal
 title: Minimal layout test
+layout: minimal
 nav_exclude: true
 ---
 

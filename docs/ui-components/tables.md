@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Tables
+layout: default
 parent: UI Components
 nav_order: 4
 ---

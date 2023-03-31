@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Layout
+layout: default
 parent: Utilities
 ---
 

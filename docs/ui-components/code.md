@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Code
+layout: default
 parent: UI Components
 has_children: true
 nav_order: 6
