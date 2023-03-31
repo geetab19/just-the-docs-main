@@ -1,6 +1,7 @@
 ---
 title: geeta test blog
 date: 2023-03-31 19:22:00 Z
+permalink: "/geeta-test-blog-01"
 testing: 
 ---
 
