@@ -12,10 +12,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-  blogs:
-    title: blogs
-    output: true
-    permalink: blogs
 description: A Jekyll theme for documentation
 baseurl: "/just-the-docs-main"
 url: https://geetab19.github.io/just-the-docs-main/
