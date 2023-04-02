@@ -5,5 +5,5 @@ permalink: test-post
 layout: default
 ---
 
-test post njjkhkjh ghgjghjhjgjgkjjgjhgjg ghjgjhgj\
+![test-21.jpg](/uploads/test-21.jpg)test post njjkhkjh ghgjghjhjgjgkjjgjhgjg ghjgjhgj\
 bnmmnbmnbmnbmnn
