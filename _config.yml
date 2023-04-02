@@ -9,7 +9,7 @@ collections:
     title: Uploads
     output: true
 description: A Jekyll theme for documentation
-baseurl: "" 
+baseurl: ''
 url: https://geetab19.github.io/just-the-docs-main/
 repository: geetab19/just-the-docs-main
 permalink: pretty
