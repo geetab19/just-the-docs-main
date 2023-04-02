@@ -3,6 +3,7 @@ title: test post
 layout: default
 date: 2023-04-02 18:27:00 Z
 permalink: test-post
+layout: table_wrappers
 ---
 
 test post njjkhkjh ghgjghjhjgjgkjjgjhgjg ghjgjhgj\
