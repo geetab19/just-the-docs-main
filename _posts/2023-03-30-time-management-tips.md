@@ -1,9 +1,10 @@
 ---
 title: Time Management Tips
 date: 2023-03-30 19:00:00 Z
-layout: Blog
+permalink: time-management-tips
 categories: Time Management
 draft: false
+layout: Blog
 ---
 
 Introduction:
