@@ -5,6 +5,9 @@ collections:
   _posts:
     title: Posts
     output: true
+  "-posts":
+    title: Posts
+    output: true
   posts:
     title: Posts
     output: true

@@ -4,7 +4,7 @@ date: 2023-03-30 19:00:00 Z
 permalink: time-management-tips
 categories: Time Management
 draft: false
-layout: home
+layout: default
 ---
 
 Introduction:
