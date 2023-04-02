@@ -2,10 +2,9 @@
 title: Just the Docs
 timezone: UTC
 collections:
-  _posts:
+  posts:
     title: Posts
     output: true
-    permalink: blogs
   uploads:
     title: Uploads
     output: true
