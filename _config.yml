@@ -5,12 +5,7 @@ collections:
   _posts:
     title: Posts
     output: true
-  "-posts":
-    title: Posts
-    output: true
-  posts:
-    title: Posts
-    output: true
+    permalink: blogs
   uploads:
     title: Uploads
     output: true
