@@ -1,6 +1,7 @@
 ---
 title: 5 Best Online Business Planner for 2023
 date: 2023-04-02 20:45:00 Z
+permalink: best-online-business-planner
 ---
 
 **5 Best Online Business Planner for 2023 (Free and Paid)**
